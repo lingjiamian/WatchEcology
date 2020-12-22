@@ -1,0 +1,11 @@
+F:\Vsproject\NewsEcological\NewsEcological\bin\Debug\netcoreapp2.0\NewsEcological.deps.json
+F:\Vsproject\NewsEcological\NewsEcological\bin\Debug\netcoreapp2.0\NewsEcological.runtimeconfig.json
+F:\Vsproject\NewsEcological\NewsEcological\bin\Debug\netcoreapp2.0\NewsEcological.runtimeconfig.dev.json
+F:\Vsproject\NewsEcological\NewsEcological\bin\Debug\netcoreapp2.0\NewsEcological.dll
+F:\Vsproject\NewsEcological\NewsEcological\obj\Debug\netcoreapp2.0\NewsEcological.csprojResolveAssemblyReference.cache
+F:\Vsproject\NewsEcological\NewsEcological\obj\Debug\netcoreapp2.0\NewsEcological.csproj.CoreCompileInputs.cache
+F:\Vsproject\NewsEcological\NewsEcological\obj\Debug\netcoreapp2.0\NewsEcological.AssemblyInfoInputs.cache
+F:\Vsproject\NewsEcological\NewsEcological\obj\Debug\netcoreapp2.0\NewsEcological.AssemblyInfo.cs
+F:\Vsproject\NewsEcological\NewsEcological\bin\Debug\netcoreapp2.0\NewsEcological.pdb
+F:\Vsproject\NewsEcological\NewsEcological\obj\Debug\netcoreapp2.0\NewsEcological.dll
+F:\Vsproject\NewsEcological\NewsEcological\obj\Debug\netcoreapp2.0\NewsEcological.pdb

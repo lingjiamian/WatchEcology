@@ -1,0 +1,227 @@
+2018-09-29 08:44:44.949 +08:00 [Information] Oninit...
+2018-09-29 08:44:45.038 +08:00 [Information] Init components...
+2018-09-29 08:44:45.130 +08:00 [Information] Add start urls to scheduler, count 20.
+2018-09-29 08:44:45.221 +08:00 [Verbose] Left 20 Success 0 Error 0 Total 20 Dowload 0 Extract 0 Pipeline 0
+2018-09-29 08:44:45.474 +08:00 [Error] Download http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=20&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 failed: Unexpected exception when download request: http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=20&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240: System.ArgumentException: An item with the same key has already been added. Key: DEFAULT
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at DotnetSpider.Downloader.HttpClientDownloader.GetHttpClient(String hash, Boolean allowAutoRedirect, IWebProxy proxy)
+   at DotnetSpider.Downloader.HttpClientDownloader.DowloadContent(Request request)..
+2018-09-29 08:44:45.477 +08:00 [Error] Download http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=19&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 failed: Unexpected exception when download request: http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=19&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240: System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at DotnetSpider.Downloader.HttpClientDownloader.GetHttpClient(String hash, Boolean allowAutoRedirect, IWebProxy proxy)
+   at DotnetSpider.Downloader.HttpClientDownloader.DowloadContent(Request request)..
+2018-09-29 08:44:45.491 +08:00 [Error] Download http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=17&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 failed: Unexpected exception when download request: http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=17&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240: System.ArgumentException: An item with the same key has already been added. Key: DEFAULT
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at DotnetSpider.Downloader.HttpClientDownloader.GetHttpClient(String hash, Boolean allowAutoRedirect, IWebProxy proxy)
+   at DotnetSpider.Downloader.HttpClientDownloader.DowloadContent(Request request)..
+2018-09-29 08:44:45.500 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=17&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:45.504 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=19&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:45.508 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=20&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:47.059 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=16&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:47.082 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=18&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:47.084 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=15&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:47.140 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=14&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:47.613 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=13&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:47.779 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=12&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:47.902 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=10&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:47.924 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=11&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:48.003 +08:00 [Verbose] Left 7 Success 11 Error 0 Total 20 Dowload 673 Extract 206 Pipeline 207
+2018-09-29 08:44:48.425 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=9&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:48.425 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=8&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:48.430 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=6&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:48.442 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=7&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:48.871 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=5&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:48.909 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=4&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:48.951 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=3&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:49.021 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=2&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:49.264 +08:00 [Information] Crawl http://news.sogou.com/news?mode=2&manual=&query=site%3Asohu.com+%B6%AF%CE%EF&time=0&sort=1&page=1&w=03009900&dr=1&_asf=news.sogou.com&_ast=1525866240 success, results 0, effectedRow 0.
+2018-09-29 08:44:49.365 +08:00 [Verbose] Left 0 Success 20 Error 0 Total 20 Dowload 476 Extract 130 Pipeline 140
+2018-09-29 08:45:05.152 +08:00 [Verbose] Left 0 Success 20 Error 0 Total 20 Dowload 476 Extract 130 Pipeline 140
+2018-09-29 08:45:05.157 +08:00 [Information] Consume: 20.2229871 seconds.
+2018-09-29 08:45:05.295 +08:00 [Information] Oninit...
+2018-09-29 08:45:05.295 +08:00 [Information] Init components...
+2018-09-29 08:45:05.296 +08:00 [Information] Add start urls to scheduler, count 158.
+2018-09-29 08:45:05.297 +08:00 [Verbose] Left 158 Success 0 Error 0 Total 158 Dowload 0 Extract 0 Pipeline 0
+2018-09-29 08:45:05.298 +08:00 [Error] Download http://www.sohu.com/a/256784620_526882 failed: Unexpected exception when download request: http://www.sohu.com/a/256784620_526882: System.ArgumentException: An item with the same key has already been added. Key: DEFAULT
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at DotnetSpider.Downloader.HttpClientDownloader.GetHttpClient(String hash, Boolean allowAutoRedirect, IWebProxy proxy)
+   at DotnetSpider.Downloader.HttpClientDownloader.DowloadContent(Request request)..
+2018-09-29 08:45:05.298 +08:00 [Information] Crawl http://www.sohu.com/a/256784620_526882 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.345 +08:00 [Information] Crawl http://www.sohu.com/a/256793274_99937407 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.427 +08:00 [Information] Crawl http://www.sohu.com/a/256750210_345973 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.435 +08:00 [Information] Crawl http://www.sohu.com/a/256793267_100275522 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.465 +08:00 [Information] Crawl http://www.sohu.com/a/256784982_715774 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.485 +08:00 [Information] Crawl http://www.sohu.com/a/256806164_100125234 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.557 +08:00 [Information] Crawl http://www.sohu.com/a/256823679_311308 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.580 +08:00 [Information] Crawl http://www.sohu.com/a/256846726_479820 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.614 +08:00 [Information] Crawl http://www.sohu.com/a/256847719_100156423 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.710 +08:00 [Information] Crawl http://www.sohu.com/a/256686275_401430 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.717 +08:00 [Information] Crawl http://www.sohu.com/a/256682482_688817 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.742 +08:00 [Information] Crawl http://www.sohu.com/a/256693043_100264949 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.811 +08:00 [Verbose] Left 145 Success 12 Error 0 Total 158 Dowload 48 Extract 10 Pipeline 5
+2018-09-29 08:45:05.888 +08:00 [Information] Crawl http://it.sohu.com/20180928/n550837289.shtml success, results 0, effectedRow 0.
+2018-09-29 08:45:05.893 +08:00 [Information] Crawl http://business.sohu.com/20180928/n550854066.shtml success, results 0, effectedRow 0.
+2018-09-29 08:45:05.933 +08:00 [Information] Crawl http://www.sohu.com/a/256697999_100135209 success, results 0, effectedRow 0.
+2018-09-29 08:45:05.964 +08:00 [Information] Crawl http://www.sohu.com/a/256714785_108602 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.066 +08:00 [Information] Crawl http://www.sohu.com/a/256745543_566038 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.125 +08:00 [Information] Crawl http://www.sohu.com/a/256744432_578928 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.126 +08:00 [Information] Crawl http://www.sohu.com/a/256743983_99958521 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.189 +08:00 [Information] Crawl http://www.sohu.com/a/256600719_100178829 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.195 +08:00 [Information] Crawl http://www.sohu.com/a/256607847_119776 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.251 +08:00 [Information] Crawl http://www.sohu.com/a/256613567_115433 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.258 +08:00 [Information] Crawl http://www.sohu.com/a/256613478_115433 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.289 +08:00 [Verbose] Left 135 Success 23 Error 0 Total 158 Dowload 63 Extract 9 Pipeline 6
+2018-09-29 08:45:06.333 +08:00 [Information] Crawl http://business.sohu.com/20180928/n550811420.shtml success, results 0, effectedRow 0.
+2018-09-29 08:45:06.377 +08:00 [Information] Crawl http://www.sohu.com/a/256642119_656058 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.415 +08:00 [Information] Crawl http://www.sohu.com/a/256628362_222256 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.462 +08:00 [Information] Crawl http://www.sohu.com/a/256657373_114986 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.478 +08:00 [Information] Crawl http://www.sohu.com/a/256651471_100144882 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.616 +08:00 [Information] Crawl http://www.sohu.com/a/256448667_100250710 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.622 +08:00 [Information] Crawl http://www.sohu.com/a/256449959_100056748 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.640 +08:00 [Information] Crawl http://www.sohu.com/a/256671443_100202819 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.703 +08:00 [Information] Crawl http://www.sohu.com/a/256452844_99986656 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.723 +08:00 [Verbose] Left 125 Success 32 Error 0 Total 158 Dowload 65 Extract 9 Pipeline 6
+2018-09-29 08:45:06.789 +08:00 [Information] Crawl http://www.sohu.com/a/256472029_638504 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.852 +08:00 [Information] Crawl http://www.sohu.com/a/256473323_355405 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.854 +08:00 [Information] Crawl http://www.sohu.com/a/256473170_115239 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.854 +08:00 [Information] Crawl http://www.sohu.com/a/256469954_658940 success, results 0, effectedRow 0.
+2018-09-29 08:45:06.986 +08:00 [Information] Crawl http://www.sohu.com/a/256493782_349508 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.055 +08:00 [Information] Crawl http://www.sohu.com/a/256440806_534487 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.083 +08:00 [Information] Crawl http://www.sohu.com/a/256484812_420076 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.084 +08:00 [Information] Crawl http://www.sohu.com/a/256432886_100177897 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.181 +08:00 [Information] Crawl http://www.sohu.com/a/256489345_100118479 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.185 +08:00 [Verbose] Left 115 Success 41 Error 0 Total 158 Dowload 68 Extract 9 Pipeline 6
+2018-09-29 08:45:07.210 +08:00 [Information] Crawl http://www.sohu.com/a/256416245_544473 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.217 +08:00 [Information] Crawl http://www.sohu.com/a/256439089_419066 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.292 +08:00 [Information] Crawl http://business.sohu.com/20180927/n550716401.shtml success, results 0, effectedRow 0.
+2018-09-29 08:45:07.307 +08:00 [Information] Crawl http://www.sohu.com/a/256443911_99981128 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.338 +08:00 [Information] Crawl http://www.sohu.com/a/256451262_470082 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.344 +08:00 [Information] Crawl http://www.sohu.com/a/256448299_100023965 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.511 +08:00 [Information] Crawl http://www.sohu.com/a/256445689_384562 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.530 +08:00 [Information] Crawl http://www.sohu.com/a/256446635_223414 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.570 +08:00 [Information] Crawl http://www.sohu.com/a/256377428_479917 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.622 +08:00 [Information] Crawl http://www.sohu.com/a/256292122_100192482 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.671 +08:00 [Verbose] Left 105 Success 51 Error 0 Total 158 Dowload 68 Extract 9 Pipeline 6
+2018-09-29 08:45:07.745 +08:00 [Information] Crawl http://www.sohu.com/a/256274027_313637 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.756 +08:00 [Information] Crawl http://www.sohu.com/a/256397034_100261434 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.766 +08:00 [Information] Crawl http://www.sohu.com/a/256276444_610793 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.799 +08:00 [Information] Crawl http://www.sohu.com/a/256111869_100037534 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.891 +08:00 [Information] Crawl http://www.sohu.com/a/256402604_162522 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.974 +08:00 [Information] Crawl http://www.sohu.com/a/256296611_100138673 success, results 0, effectedRow 0.
+2018-09-29 08:45:07.994 +08:00 [Information] Crawl http://www.sohu.com/a/256313939_99957185 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.028 +08:00 [Information] Crawl http://www.sohu.com/a/256402409_333962 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.117 +08:00 [Information] Crawl http://www.sohu.com/a/256402346_162522 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.120 +08:00 [Information] Crawl http://www.sohu.com/a/256185067_114760 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.165 +08:00 [Information] Crawl http://business.sohu.com/20180926/n550657208.shtml success, results 0, effectedRow 0.
+2018-09-29 08:45:08.218 +08:00 [Verbose] Left 95 Success 62 Error 0 Total 158 Dowload 71 Extract 9 Pipeline 6
+2018-09-29 08:45:08.265 +08:00 [Information] Crawl http://www.sohu.com/a/256200070_347499 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.295 +08:00 [Information] Crawl http://www.sohu.com/a/256221414_100264039 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.352 +08:00 [Information] Crawl http://www.sohu.com/a/256337288_100041148 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.388 +08:00 [Information] Crawl http://www.sohu.com/a/256378363_100157759 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.494 +08:00 [Information] Crawl http://www.sohu.com/a/256341695_100279691 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.524 +08:00 [Information] Crawl http://www.sohu.com/a/256212434_114733 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.542 +08:00 [Information] Crawl http://www.sohu.com/a/256276266_735994 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.569 +08:00 [Information] Crawl http://www.sohu.com/a/256350680_182330 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.654 +08:00 [Information] Crawl http://www.sohu.com/a/256417353_100179701 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.656 +08:00 [Information] Crawl http://www.sohu.com/a/256227501_106321 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.669 +08:00 [Verbose] Left 85 Success 72 Error 0 Total 158 Dowload 71 Extract 9 Pipeline 6
+2018-09-29 08:45:08.758 +08:00 [Information] Crawl http://www.sohu.com/a/256362822_143174 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.775 +08:00 [Information] Crawl http://www.sohu.com/a/256231408_100201434 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.795 +08:00 [Information] Crawl http://www.sohu.com/a/256586851_99982343 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.883 +08:00 [Information] Crawl http://www.sohu.com/a/256429364_762912 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.896 +08:00 [Information] Crawl http://www.sohu.com/a/256373104_99982343 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.926 +08:00 [Information] Crawl http://www.sohu.com/a/256252820_100085927 success, results 0, effectedRow 0.
+2018-09-29 08:45:08.995 +08:00 [Information] Crawl http://www.sohu.com/a/256244127_100252835 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.110 +08:00 [Information] Crawl http://www.sohu.com/a/256265902_255576 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.117 +08:00 [Information] Crawl http://www.sohu.com/a/256267610_114988 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.143 +08:00 [Information] Crawl http://www.sohu.com/a/253242560_100177345 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.210 +08:00 [Verbose] Left 75 Success 82 Error 0 Total 158 Dowload 73 Extract 9 Pipeline 6
+2018-09-29 08:45:09.247 +08:00 [Information] Crawl http://www.sohu.com/a/249073441_99911771 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.346 +08:00 [Information] Crawl http://www.sohu.com/a/253464589_100273226 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.357 +08:00 [Information] Crawl http://www.sohu.com/a/250585964_369455 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.390 +08:00 [Information] Crawl http://www.sohu.com/a/253498959_100177345 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.519 +08:00 [Information] Crawl http://www.sohu.com/a/251330395_100180399 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.581 +08:00 [Information] Crawl http://www.sohu.com/a/252030852_100020125 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.582 +08:00 [Information] Crawl http://www.sohu.com/a/254230807_742451 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.626 +08:00 [Information] Crawl http://www.sohu.com/a/254588952_100202819 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.727 +08:00 [Verbose] Left 65 Success 90 Error 0 Total 158 Dowload 77 Extract 9 Pipeline 6
+2018-09-29 08:45:09.751 +08:00 [Information] Crawl http://www.sohu.com/a/256069391_665455?_f=index_select_4 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.767 +08:00 [Information] Crawl http://www.sohu.com/a/252227136_114731 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.801 +08:00 [Information] Crawl http://www.sohu.com/a/252437772_260616 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.812 +08:00 [Information] Crawl http://www.sohu.com/a/254903480_350221 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.950 +08:00 [Information] Crawl http://business.sohu.com/20180926/n550570963.shtml success, results 0, effectedRow 0.
+2018-09-29 08:45:09.988 +08:00 [Information] Crawl http://www.sohu.com/a/256166975_100195164 success, results 0, effectedRow 0.
+2018-09-29 08:45:09.997 +08:00 [Information] Crawl http://www.sohu.com/a/252807908_99966825 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.021 +08:00 [Information] Crawl http://www.sohu.com/a/253032093_100252844 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.078 +08:00 [Information] Crawl http://www.sohu.com/a/244714741_100153579 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.235 +08:00 [Information] Crawl http://www.sohu.com/a/244905045_255783 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.245 +08:00 [Information] Crawl http://www.sohu.com/a/245159664_100172772 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.258 +08:00 [Information] Crawl https://www.sohu.com/a/244748167_114733 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.299 +08:00 [Information] Crawl http://www.sohu.com/a/245598375_142574 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.336 +08:00 [Verbose] Left 55 Success 103 Error 0 Total 158 Dowload 80 Extract 8 Pipeline 6
+2018-09-29 08:45:10.470 +08:00 [Information] Crawl http://www.sohu.com/a/245957358_162522 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.474 +08:00 [Information] Crawl http://www.sohu.com/a/246524984_100203508 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.486 +08:00 [Information] Crawl http://www.sohu.com/a/247111549_452858 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.522 +08:00 [Information] Crawl http://www.sohu.com/a/247948447_99912980 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.692 +08:00 [Information] Crawl http://www.sohu.com/a/247958181_260616 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.716 +08:00 [Information] Crawl http://www.sohu.com/a/242228957_114911 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.733 +08:00 [Information] Crawl http://www.sohu.com/a/241720717_100204770 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.834 +08:00 [Verbose] Left 45 Success 110 Error 0 Total 158 Dowload 82 Extract 8 Pipeline 6
+2018-09-29 08:45:10.929 +08:00 [Information] Crawl http://business.sohu.com/20180723/n544268186.shtml success, results 0, effectedRow 0.
+2018-09-29 08:45:10.957 +08:00 [Information] Crawl http://www.sohu.com/a/242990579_100003513 success, results 0, effectedRow 0.
+2018-09-29 08:45:10.974 +08:00 [Information] Crawl http://www.sohu.com/a/243236628_100231891 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.080 +08:00 [Information] Crawl http://it.sohu.com/20180724/n544312677.shtml success, results 0, effectedRow 0.
+2018-09-29 08:45:11.158 +08:00 [Information] Crawl http://www.sohu.com/a/243238941_114835 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.195 +08:00 [Information] Crawl http://www.sohu.com/a/243888750_99958642 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.208 +08:00 [Information] Crawl http://www.sohu.com/a/244335478_119759 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.316 +08:00 [Information] Crawl http://www.sohu.com/a/244361771_635871 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.383 +08:00 [Information] Crawl http://www.sohu.com/a/237955929_385798 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.431 +08:00 [Information] Crawl http://www.sohu.com/a/238096753_100003513 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.443 +08:00 [Information] Crawl http://www.sohu.com/a/238837097_491627 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.532 +08:00 [Verbose] Left 35 Success 121 Error 0 Total 158 Dowload 88 Extract 8 Pipeline 6
+2018-09-29 08:45:11.568 +08:00 [Information] Crawl http://www.sohu.com/a/238907699_244866 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.577 +08:00 [Information] Crawl http://www.sohu.com/a/234972603_109425 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.655 +08:00 [Information] Crawl http://www.sohu.com/a/230195507_249018 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.683 +08:00 [Information] Crawl http://www.sohu.com/a/235076865_100143139 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.806 +08:00 [Information] Crawl http://www.sohu.com/a/239017985_100132536 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.813 +08:00 [Information] Crawl http://www.sohu.com/a/230326382_100001695 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.902 +08:00 [Information] Crawl http://www.sohu.com/a/235162022_488179 success, results 0, effectedRow 0.
+2018-09-29 08:45:11.917 +08:00 [Information] Crawl http://www.sohu.com/a/230467924_99895073 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.048 +08:00 [Information] Crawl http://www.sohu.com/a/235218146_255783 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.049 +08:00 [Information] Crawl http://www.sohu.com/a/239199498_99931039 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.122 +08:00 [Information] Crawl http://www.sohu.com/a/233330390_158943 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.149 +08:00 [Verbose] Left 24 Success 132 Error 0 Total 158 Dowload 91 Extract 8 Pipeline 6
+2018-09-29 08:45:12.154 +08:00 [Information] Crawl http://www.sohu.com/a/235554361_100151456 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.283 +08:00 [Information] Crawl http://www.sohu.com/a/233441600_117373 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.285 +08:00 [Information] Crawl http://www.sohu.com/a/239207693_119858 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.354 +08:00 [Information] Crawl http://www.sohu.com/a/235558845_100093662 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.383 +08:00 [Information] Crawl http://www.sohu.com/a/239974171_380844 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.520 +08:00 [Information] Crawl http://www.sohu.com/a/233466130_585110 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.524 +08:00 [Information] Crawl http://www.sohu.com/a/235616572_165575 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.581 +08:00 [Information] Crawl http://www.sohu.com/a/240023817_114941 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.608 +08:00 [Information] Crawl http://www.sohu.com/a/230505894_222256 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.681 +08:00 [Verbose] Left 15 Success 141 Error 0 Total 158 Dowload 92 Extract 8 Pipeline 6
+2018-09-29 08:45:12.753 +08:00 [Information] Crawl http://www.sohu.com/a/233496047_573417 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.758 +08:00 [Information] Crawl http://www.sohu.com/a/241123046_161623 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.880 +08:00 [Information] Crawl http://www.sohu.com/a/230733321_100144860 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.978 +08:00 [Information] Crawl http://www.sohu.com/a/235730941_100027622 success, results 0, effectedRow 0.
+2018-09-29 08:45:12.999 +08:00 [Information] Crawl http://www.sohu.com/a/233731490_349513 success, results 0, effectedRow 0.
+2018-09-29 08:45:13.000 +08:00 [Information] Crawl http://www.sohu.com/a/236310332_824892 success, results 0, effectedRow 0.
+2018-09-29 08:45:13.151 +08:00 [Information] Crawl http://www.sohu.com/a/230966339_349506 success, results 0, effectedRow 0.
+2018-09-29 08:45:13.214 +08:00 [Information] Crawl http://www.sohu.com/a/233834212_544612 success, results 0, effectedRow 0.
+2018-09-29 08:45:13.238 +08:00 [Information] Crawl http://www.sohu.com/a/230139531_475370 success, results 0, effectedRow 0.
+2018-09-29 08:45:13.262 +08:00 [Information] Crawl http://www.sohu.com/a/236511769_100161371 success, results 0, effectedRow 0.
+2018-09-29 08:45:13.339 +08:00 [Verbose] Left 5 Success 151 Error 0 Total 158 Dowload 96 Extract 8 Pipeline 5
+2018-09-29 08:45:13.402 +08:00 [Information] Crawl http://www.sohu.com/a/234369012_99956743 success, results 0, effectedRow 0.
+2018-09-29 08:45:13.449 +08:00 [Information] Crawl http://www.sohu.com/a/231380506_114731 success, results 0, effectedRow 0.
+2018-09-29 08:45:13.481 +08:00 [Information] Crawl http://www.sohu.com/a/234387004_123753 success, results 0, effectedRow 0.
+2018-09-29 08:45:13.509 +08:00 [Information] Crawl http://business.sohu.com/20180607/n540035592.shtml success, results 0, effectedRow 0.
+2018-09-29 08:45:13.639 +08:00 [Information] Crawl http://www.sohu.com/a/232173142_100166554 success, results 0, effectedRow 0.
+2018-09-29 08:45:13.709 +08:00 [Information] Crawl http://www.sohu.com/a/234784016_162758 success, results 0, effectedRow 0.
+2018-09-29 08:45:13.721 +08:00 [Information] Crawl http://www.sohu.com/a/232498212_100166322 success, results 0, effectedRow 0.
+2018-09-29 08:45:29.515 +08:00 [Verbose] Left 0 Success 158 Error 0 Total 158 Dowload 98 Extract 8 Pipeline 5
+2018-09-29 08:45:29.515 +08:00 [Information] Consume: 24.2197119 seconds.
